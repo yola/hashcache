@@ -1,0 +1,1 @@
+# find_packages(exclude=["*.tests", "*.tests.*"])
