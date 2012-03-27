@@ -1,2 +1,2 @@
-class Hascache(object):
+class Hashcache(object):
     pass

@@ -1,6 +1,6 @@
 from unittest import TestCase
 from flexmock import flexmock
-from hashcache.hashcache import Hashcache
+from hashcache import Hashcache
 
 class TestHashcache(TestCase):
     """Test the Hashcache class"""
