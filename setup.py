@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="hashcache",
@@ -10,7 +10,7 @@ setup(
     author="Yola, Inc.",
     author_email="justin@yola.com",
     url="http://github.com/yola/hashcache",
-    packages = find_packages(exclude=["tests.*",]),
+    packages = ("hashcache",),
     keywords= "django cache library",
     zip_safe = False,
 )
