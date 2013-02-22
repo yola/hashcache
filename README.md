@@ -4,8 +4,6 @@ A wrapper for [django's low-level cache api][1] that cleans and hashes the
 keys to get around encoding and key length issues when using picky cache
 stores (like memcached...).
 
-Written and used by the fine folks at [Yola][3].
-
 ## Normal Usage
 
     >>> from hashcache import hashcache
@@ -38,3 +36,7 @@ and run:
 [1]:https://docs.djangoproject.com/en/dev/topics/cache/?from=olddocs#the-low-level-cache-api
 [2]:https://github.com/Yelp/Testify
 [3]:https://www.yola.com/
+
+## Everything else
+
+Written and used by the folks at Yola. Check out our [free website][3] builder today.
