@@ -1,0 +1,4 @@
+include *.md
+include LICENSE
+include dev_requirements.txt
+recursive-include tests *.py

@@ -8,7 +8,7 @@ setup(
     description="Wrapper for the django cache api to gracefully handle long or non-ascii keys",
     license="MIT",
     author="Yola, Inc.",
-    author_email="justin@yola.com",
+    author_email="engineers@yola.com",
     url="http://github.com/yola/hashcache",
     packages = ("hashcache",),
     keywords= "django cache library",
